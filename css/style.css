@@ -1,0 +1,184 @@
+
+.columnas {
+ display: flex;
+}
+
+/* Columna izquierda */
+
+.left-column {
+  width: 40vw;
+  background:rgb(45, 129, 152)
+
+}
+
+.cuerpo {
+  margin-top: 12%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.perfil {
+width: inherit;
+height: inherit;
+  
+}
+
+
+.name {
+  
+  font-family: roboto;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.subname{
+
+  text-align: center;
+  font-family: roboto;
+  color: #d2eaf1;
+}
+
+.titulo {
+  margin-inline: 50%;
+  
+}
+
+.data {
+  display: flex;
+  margin: 10;
+  padding: 40;
+  text-align: center;
+  font-family: roboto;
+  color: #d2eaf1;
+  
+  }
+
+  h1 {
+    color: rgb(45, 129, 152);
+  }
+  
+  h2{
+    color: rgb(45, 129, 152);
+  }
+ 
+.redes-col {
+  display: flex;
+  flex-direction: column;
+}  
+
+.redes-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}  
+
+
+  .icono {
+    height: 10%;
+    width: 10%;
+
+  }
+  
+  
+ /* columna derecha */
+
+.right-column {
+  margin-left: 3%;
+  font-family: roboto;
+
+}
+
+
+
+h3 {
+  color: white;
+}
+
+
+
+.line {
+  width: 90%;
+  border: 2px solid black;
+  
+}
+
+
+ 
+/* barra de porgreso */
+
+.progress {
+  margin-top: 20px ;
+  height: 40px;
+  width: 90%;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  
+}
+
+.progress-bar {
+  height: 90%;
+  background: rgb(45, 129, 152);
+  display: flex;
+  align-items: center;
+  transition: width 0.25s;
+  border-radius: 5px;
+}
+
+
+
+.progress-bar {
+  height: 90%;
+  background: rgb(45, 129, 152);
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.progress-bar-text {
+  margin-left: 10px;
+  font-weight: roboto;
+  color: white;
+}
+
+/* video */
+
+#video-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+#video-overlay video {
+  width: 640px;
+  height: 360px;
+  display: flex;
+}
+
+/* Fotos Galeria */
+
+
+
+body{
+  margin: 10;
+  padding: 10;
+}
+
+img{
+  width: 20%;
+  margin-right: 3%;
+}
+
+.gallery {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.column{
+flex: 5%;
+padding: 3px;
+
+}
